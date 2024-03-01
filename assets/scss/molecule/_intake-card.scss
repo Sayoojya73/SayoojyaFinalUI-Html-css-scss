@@ -1,0 +1,58 @@
+.intake-card{
+    background-color: #0f3253ac;
+    
+    color: white;
+    width: 100%;
+
+@include mobile{
+    padding-right: 30px;
+}
+
+     .card-cntnt{
+       .txtt{
+        opacity: 50%;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+       }
+       p{
+        font-size: 14px;
+        font-weight: 600;
+       }
+       h4{
+        font-size: 18px;
+        font-weight: 600;
+       }
+
+       
+
+     } 
+     .card-icon{
+        margin-top: 50px;
+        margin-left: 110px;
+        
+        @include mobile{
+            margin-left: 20px;
+            width: 0px;
+        }
+         
+    }
+    
+
+    
+}
+.intake-btn{
+    border: none;
+    width: 100px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 160px;
+    border-radius: 0;
+}
+.intake-btn:hover{
+    opacity: 0.7;
+}
+.intake-card:hover{
+    background-color:  #03549F;
+}
+

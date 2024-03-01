@@ -1,0 +1,36 @@
+.card2{
+    background-color: #ac2a2a;
+    padding: 2%;
+    width: 100%;
+    margin: 20px 20px;
+    position: relative;
+    h3{
+        margin-top: 39px;
+        color: $text;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        width: 95%;
+
+        
+    }
+    .card2-icons{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .card2-img{
+        position: absolute;
+        top: -35px;
+        left: 20px;
+    }
+    .card2-link a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.banner{
+   background-image: url(../images/Backgrounds/Rectangle4012.png);
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px;
+   padding-top: 50px;
+.banner-desc{
+   width: 769px;
+   color: rgb(255, 255, 255);
+   @include mobile{
+   width: 90%;
+   
+ }
+
+   h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+   }
+   
+}
+@include mobile{
+   height: auto;
+    padding: 5%;
+    width: 100%;
+ }
+}

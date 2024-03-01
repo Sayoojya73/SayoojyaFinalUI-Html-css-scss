@@ -1,0 +1,66 @@
+.footer1{
+    width: 100%;
+    background-image: linear-gradient(to right,#23133F , #08205C,#01326A);
+    padding-bottom: 30px;
+    padding-top: 100px;
+    
+
+    @include mobile{
+        padding: 20px 30px;
+    }
+    @include tablet{
+        padding: 10px 0px 0px 30px;
+    }
+
+   p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+   }
+h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.f1{
+    position: relative;
+    .vline{
+        position: absolute;
+        right: 30px;
+        top:13px;
+        height: 240px;
+        @include mobile{
+            position: relative;
+            width: 0;
+            height: 0;
+        }
+        @include tablet{
+            position: relative;
+            width: 0;
+            height: 0; 
+        }
+       
+    }
+}
+}
+.footer2{
+    width: 100%;
+   background-color: #150D2B;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    .foot2-icon{
+        width:160px ;
+        height: 50px;
+        padding-bottom: 13px;
+    }
+    p{
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        span{
+            margin: 0 5%;
+            font-size: 22px;
+            font-weight: 200;
+        }
+    }
+}

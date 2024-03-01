@@ -1,0 +1,61 @@
+.reqdemo{
+
+@include mobile{
+    padding: 2px 15px;
+    
+}
+
+    h4{
+        color: $text;
+        font-size: 28px;
+        font-weight: 600;
+        @include mobile{
+            width: 300px;
+            margin-top: 30px;
+        }
+    }
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        @include mobile{
+            width: 300px;
+        }
+    }
+    
+}
+    .input1{
+        position: relative;
+
+        @include mobile{
+            display:flex;
+            
+        }
+    }
+    .reqicon{
+        position: absolute;
+        right: 20px;
+        top:10px
+        
+    }
+    .form-control{
+        border-radius: 0px;
+        margin-left: 0%;
+    }
+   .txt-area{
+    height: 75px;
+   }
+   .btndiv{
+    border: none;
+    background-color: $text;
+    color: white;
+    border-radius: 0px;
+   }
+
+   .verticalLine{
+    img{
+        @include mobile{
+            height: 0px;
+            width: 0%;
+        }
+    }
+   }

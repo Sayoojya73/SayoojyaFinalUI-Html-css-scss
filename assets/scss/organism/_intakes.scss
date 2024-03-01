@@ -1,0 +1,36 @@
+.intake{
+    background-color: #071D31;
+    width: 100%;
+   
+    background-size: cover;
+    padding: 50px;
+    padding-top: 50px;
+
+    .intake-grid{
+        .intake-img{
+            width: 370px;
+            padding-top: 15px;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+}
+
+.intake-txt{
+    color: #ffffff;
+    
+    p{
+        font-size: 14px;
+        opacity: 50%;
+    }
+    #need{
+        letter-spacing: 2px;
+        color: #ffffff;
+        opacity: 100%;
+        margin-bottom: 0;
+    }
+}

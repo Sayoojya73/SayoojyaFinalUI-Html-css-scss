@@ -1,0 +1,98 @@
+.country{
+    width: 100%;
+    background-color: #E9E9E9;
+    height: auto;
+    margin-top: 100px;
+    // position: relative;
+   
+    
+  
+
+    h5{
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #666666;
+    }
+}
+
+.newsletters{
+  //  position: absolute;
+  // z-index: 1;
+  // bottom: -90px;
+  // width: 90%;
+  
+    
+    background-color: #1D7AD0;
+    
+    @include mobile{
+      flex-direction: column;
+      // position: relative;
+      // z-index: 1;
+      
+      // width: 110%;
+    }
+    p{
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    h4{
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+.nl-input{
+    position: relative;
+    @include mobile{
+      margin-left: -70px;
+      margin-top: -10px;
+    }
+  .nl-email{
+    border: none;
+    padding: 8px 60px ;
+    width: 75%;
+    margin: 0px;
+    
+  }
+  .nl-btn{
+    border: none;
+    padding: 8px 10px ;
+    margin: 0px;
+    background-color:#10385B ;
+    position: absolute;
+    right: 0;
+  }
+  .nl-btn:hover{
+    opacity: 0.7;
+  }
+}}
+
+.country1{
+  flex-direction: column;
+
+  img{
+    width: 30px;
+    height: 30px;
+  }
+
+  @include mobile{
+    align-items: center;
+  }
+  @include tablet{
+    align-items: center;
+  }
+}
+
+// .nwrow{
+//   padding-bottom: 100px;
+
+//   @include mobile{
+//     padding-bottom: 0%;
+//   }
+// }

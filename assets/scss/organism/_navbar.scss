@@ -1,0 +1,92 @@
+.navbar-brand img {
+    height: 25px; 
+    @include mobile{
+      height: 16px;
+      margin: 10px;
+    } 
+    @include tablet{
+      height: 14px;
+      width: auto;
+    }
+}
+
+  @media (max-width: 769px) {
+    .navbar-collapse {
+      justify-content: flex-end;
+    }
+  }
+
+  .nav-btn{
+    border: none;
+    font-size: 14px;
+    color: white;
+    background-color: #10385B;
+    @include mobile{
+     font-size: 12px;
+     margin-left: 0px;
+     padding-left: 0px;
+    }
+    @include tablet{
+      font-size: 12px;
+    }
+
+
+  }
+  .navbar a{
+    font-size: 14px;
+    font-weight: 400;
+    @include mobile{
+      font-size: 12px;
+     }
+     @include tablet{
+       font-size: 12px;
+     }
+  }
+
+ .nav-icon{
+    width: 14px;
+    @include mobile{
+      width: 10px;
+      margin: 10px;
+     }
+     
+    
+ } 
+ .fb{
+    height: 5px;
+    width: 6px;
+  }
+  .dot{
+    width: 5px;
+    @include mobile{
+      width:0px;
+      height: 0px;
+     }
+     
+  }
+  .nav-p{
+    margin-top: 4px;
+    font-weight: 200;
+    @include mobile{
+      margin-top: 10px;
+
+    }
+  }
+  .nav-1{
+  border-bottom: solid;
+  border-width: 1px;
+  color: rgb(237, 235, 235);
+  }
+
+ .navbar{
+  @include mobile{
+    width: 100%;
+  }
+ } 
+
+ .nimg{
+  @include mobile{
+    width: 0px;
+    height: 0px;
+  }
+ }

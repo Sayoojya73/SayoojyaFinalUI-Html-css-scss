@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  
+    
+}
+.content-wrapper{
+    width: 1200px;
+    margin: 0% auto;
+    align-items: center;
+    @include mobile{
+        width: 100%;
+    }
+    @include tablet{
+        width: 100%;
+    }
+    @include tablet-pro{
+        width: 100%;
+    }
+    @include desktop{
+        width: 100%;
+    }
+   
+   
+
+}
+.wrapper{
+    width: 1320px;
+    margin: 0% auto;
+    align-items: center; 
+    @include mobile{
+        width: 100%;
+    }
+    @include tablet{
+        width: 100%;
+    }
+    @include tablet-pro{
+        width: 100%;
+    }
+    @include desktop{
+        width: 100%;
+    }
+}
