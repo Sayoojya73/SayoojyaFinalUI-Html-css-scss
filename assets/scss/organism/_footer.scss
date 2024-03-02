@@ -2,14 +2,18 @@
     width: 100%;
     background-image: linear-gradient(to right,#23133F , #08205C,#01326A);
     padding-bottom: 30px;
-    padding-top: 100px;
-    
+    padding-top: 130px;
+    position: relative; /* Ensure stacking context */
+    z-index: 100;
+    margin-top: 0%;
+  
 
     @include mobile{
         padding: 20px 30px;
     }
     @include tablet{
         padding: 10px 0px 0px 30px;
+        padding-top: 13%;
     }
 
    p{
@@ -64,3 +68,45 @@ h4{
         }
     }
 }
+
+
+
+
+.footer1 h4 {
+    cursor: pointer; 
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .footer1 p {
+      display: none; 
+    }
+    
+    .footer1 p.open {
+      display: block; 
+    }}
+
+    @media screen and (max-width: 768px) {
+        .footer1 h4 {
+          margin-bottom: 5px; 
+          text-align: left;
+          padding: 0;
+        }
+        .footer1 p {
+            margin-bottom: 2px; 
+            text-align: left;
+            padding: 0%;
+          }
+          .services{
+            padding-left: 0%;
+            margin-left: 0%;
+            margin-bottom: 17px;
+          }
+          .footer1 .col{
+            padding-left:0 ;
+            margin-left: 0px;
+          }
+      }
+
+
+      

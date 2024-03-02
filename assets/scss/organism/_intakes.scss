@@ -13,6 +13,10 @@
             img{
                 width: 100%;
                 object-fit: cover;
+                @include tablet{
+                    width: 0;
+                    height: 0;
+                }
             }
         }
     }
@@ -34,3 +38,5 @@
         margin-bottom: 0;
     }
 }
+
+    

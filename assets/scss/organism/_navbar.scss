@@ -76,7 +76,14 @@
   border-bottom: solid;
   border-width: 1px;
   color: rgb(237, 235, 235);
+  
+   @include mobile {
+        display: none;
+      }
+    
   }
+
+  
 
  .navbar{
   @include mobile{
